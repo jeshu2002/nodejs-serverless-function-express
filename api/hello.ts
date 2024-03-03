@@ -4,9 +4,9 @@ import fs from 'fs-extra';
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     // Read the models.json file asynchronously
-    const modelsData = await fs.readFile('models.json', 'utf-8');
+    const modelsData = await fs.readFile('api/models.jsonn', 'utf-8');
     const models = JSON.parse(modelsData);
-
+    
     // Return the models data as JSON
     return res.json(models);
   } catch (error) {
