@@ -273,6 +273,76 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
         "tagline": "Enhanced Language Representation with Informative Entities",
         "content": "ERNIE-2.0 is an upgraded version of the ERNIE model, incorporating improvements in knowledge graph utilization and context understanding. It focuses on generating more informative representations of entities in a text. ERNIE-2.0 is applied to various natural language processing tasks, including text classification, question answering, and sentiment analysis.",
         "category": "Natural Language Processing"
+      },
+      {
+        "id": 38,
+        "title": "ResNet",
+        "tagline": "Deep Residual Learning for Image Recognition",
+        "content": "ResNet is a deep convolutional neural network architecture that introduced residual learning. It enables the training of very deep networks by addressing the vanishing gradient problem. ResNet has achieved state-of-the-art results in various image recognition tasks.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 39,
+        "title": "InceptionV3",
+        "tagline": "GoogLeNet's Inception Version 3",
+        "content": "InceptionV3 is a convolutional neural network architecture that belongs to the Inception family. It features multiple parallel paths with different receptive field sizes to capture diverse features in the input data. InceptionV3 is widely used for image classification and object detection.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 40,
+        "title": "VGG16",
+        "tagline": "Visual Geometry Group's 16-layer Network",
+        "content": "VGG16 is a deep convolutional neural network with 16 layers. It is known for its simplicity and uniform architecture, consisting of small 3x3 convolutional filters. VGG16 has been widely used for image classification tasks.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 41,
+        "title": "DenseNet",
+        "tagline": "Densely Connected Convolutional Networks",
+        "content": "DenseNet is a convolutional neural network architecture that emphasizes densely connected layers. It promotes feature reuse by connecting each layer to every other layer in a feed-forward fashion. DenseNet has shown efficiency in terms of parameter usage.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 42,
+        "title": "Xception",
+        "tagline": "Extreme Inception",
+        "content": "Xception is a deep convolutional neural network architecture that extends the Inception design principles. It replaces the standard Inception modules with depthwise separable convolutions. Xception has demonstrated strong performance in image classification tasks.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 43,
+        "title": "ShuffleNet",
+        "tagline": "Channel Shuffle Networks",
+        "content": "ShuffleNet is a family of efficient convolutional neural network architectures designed for mobile and edge devices. It utilizes channel shuffle operations to reduce computation cost while maintaining accuracy. ShuffleNet is suitable for resource-constrained environments.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 44,
+        "title": "EfficientNet",
+        "tagline": "Efficient Neural Network Architectures",
+        "content": "EfficientNet is a scalable convolutional neural network architecture that achieves state-of-the-art accuracy with significantly fewer parameters. It uses a compound scaling method to balance model depth, width, and resolution. EfficientNet is known for its efficiency in resource usage.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 45,
+        "title": "SqueezeNet",
+        "tagline": "Squeezing the Fire",
+        "content": "SqueezeNet is a lightweight convolutional neural network architecture designed for efficient inference on resource-constrained devices. It uses 1x1 convolutions to reduce the number of parameters while maintaining high performance. SqueezeNet is suitable for real-time applications.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 46,
+        "title": "NASNet",
+        "tagline": "Neural Architecture Search Network",
+        "content": "NASNet is a family of neural network architectures discovered through neural architecture search. It utilizes reinforcement learning to automatically discover efficient and effective network architectures for image classification tasks. NASNet has shown competitive performance compared to manually designed networks.",
+        "category": "Computer Vision"
+      },
+      {
+        "id": 47,
+        "title": "MnasNet",
+        "tagline": "Mobile Neural Architecture Search Network",
+        "content": "MnasNet is a mobile-friendly neural network architecture discovered through neural architecture search. It focuses on efficient model design for mobile devices, considering both accuracy and computational cost. MnasNet is suitable for on-device image classification.",
+        "category": "Computer Vision"
       }
   
     ]
@@ -283,3 +353,8 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
   
   )
 }
+
+
+
+
+
