@@ -7,7 +7,7 @@ You can choose from one of the following two methods to use this repository:
 ### Clone and Deploy
 
 ```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
+git clone https://github.com/jeshu2002/nodejs-serverless-function-express.git
 ```
 
 Install the Vercel CLI:
