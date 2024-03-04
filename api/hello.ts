@@ -38,17 +38,17 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
       },
       {
           "id": 5,
-          "title": "ImageNet",
-          "tagline": "Large Scale Visual Recognition Challenge",
-          "content": "ImageNet refers to both a large-scale visual recognition dataset and the models trained on this dataset. It has been a pivotal resource in the development of computer vision models. Models like VGG16, Inception, and ResNet have been trained on ImageNet, enabling them to achieve impressive performance in image classification tasks. ImageNet has played a significant role in advancing the field of computer vision.",
-          "category": "Computer Vision"
+          "title": "GPT-4",
+          "tagline": "Generative Pre-trained Transformer 4",
+          "content": "GPT-4 is the latest iteration of the Generative Pre-trained Transformer series. Developed by OpenAI, GPT-4 exhibits unparalleled capabilities in natural language understanding and generation. With a massive number of parameters and sophisticated training techniques, GPT-4 can generate coherent and contextually relevant text across a wide range of topics and domains.",
+          "category": "classification"
       },
       {
           "id": 6,
-          "title": "VGG16",
-          "tagline": "Visual Geometry Group 16",
-          "content": "VGG16, or Visual Geometry Group 16, is a deep convolutional neural network that gained recognition for its high accuracy in the ImageNet Large Scale Visual Recognition Challenge. The architecture of VGG16 is characterized by its simplicity, consisting of 16 weight layers. Despite its straightforward design, VGG16 demonstrated competitive performance in image classification tasks.",
-          "category": "Computer Vision"
+          "title": "Recurrent Neural Networks (RNNs) for Sequential Data",
+          "tagline": "Dynamic Learning for Sequences",
+          "content": "Recurrent Neural Networks (RNNs) are specialized deep learning models for handling sequential data. With feedback loops that allow information to persist, RNNs are effective for tasks like natural language processing, time series analysis, and speech recognition. Despite challenges with vanishing and exploding gradients, advancements like Long Short-Term Memory (LSTM) networks enhance RNNs' ability to capture long-range dependencies.",
+          "category": "Supervised Learning"         
       },
       {
           "id": 7,
@@ -430,10 +430,10 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
       },
       {
           "id": 60,
-          "title": "GPT-4",
-          "tagline": "Generative Pre-trained Transformer 4",
-          "content": "GPT-4 is the latest iteration of the Generative Pre-trained Transformer series. Developed by OpenAI, GPT-4 exhibits unparalleled capabilities in natural language understanding and generation. With a massive number of parameters and sophisticated training techniques, GPT-4 can generate coherent and contextually relevant text across a wide range of topics and domains.",
-          "category": "classification"
+          "title": "ImageNet",
+          "tagline": "Large Scale Visual Recognition Challenge",
+          "content": "ImageNet refers to both a large-scale visual recognition dataset and the models trained on this dataset. It has been a pivotal resource in the development of computer vision models. Models like VGG16, Inception, and ResNet have been trained on ImageNet, enabling them to achieve impressive performance in image classification tasks. ImageNet has played a significant role in advancing the field of computer vision.",
+          "category": "Computer Vision"
       },
       {
           "id": 61,
@@ -703,10 +703,10 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
       },
       {
           "id": 100,
-          "title": "Recurrent Neural Networks (RNNs) for Sequential Data",
-          "tagline": "Dynamic Learning for Sequences",
-          "content": "Recurrent Neural Networks (RNNs) are specialized deep learning models for handling sequential data. With feedback loops that allow information to persist, RNNs are effective for tasks like natural language processing, time series analysis, and speech recognition. Despite challenges with vanishing and exploding gradients, advancements like Long Short-Term Memory (LSTM) networks enhance RNNs' ability to capture long-range dependencies.",
-          "category": "Supervised Learning"
+          "title": "VGG16",
+          "tagline": "Visual Geometry Group 16",
+          "content": "VGG16, or Visual Geometry Group 16, is a deep convolutional neural network that gained recognition for its high accuracy in the ImageNet Large Scale Visual Recognition Challenge. The architecture of VGG16 is characterized by its simplicity, consisting of 16 weight layers. Despite its straightforward design, VGG16 demonstrated competitive performance in image classification tasks.",
+          "category": "Computer Vision"
       },
       {
           "id": 101,
